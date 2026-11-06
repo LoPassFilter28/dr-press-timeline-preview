@@ -132,7 +132,7 @@ nav.main{display:flex;gap:18px;justify-content:center;padding:12px 10px;font-siz
 nav.main a{color:var(--ink);text-decoration:none;padding:6px 2px}
 nav.main a:hover{color:var(--accent-ink);text-decoration:underline;text-underline-offset:4px}
 .controls{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
-.controls input[type="search"],.controls select{font:inherit;font-size:14px;padding:8px 10px;min-height:44px;
+.controls input[type="search"],.controls select{font:inherit;font-size:16px;padding:8px 10px;min-height:44px;
 border:1px solid var(--control-border);background:var(--surface);color:var(--ink);border-radius:8px}
 .controls input[type="search"]{flex:2 1 260px;min-width:200px}
 .controls select{flex:1 1 150px;min-width:0;max-width:100%}
@@ -279,6 +279,6 @@ color:var(--headline);margin:32px 0 4px;border-bottom:2px solid var(--accent);pa
    article pages sideways at 125%/200% font scaling; the masthead title
    could likewise refuse to break. Both may now wrap anywhere. */
 .src a{overflow-wrap:anywhere;word-break:break-word}
-header.masthead h1,header.masthead .sitename{overflow-wrap:anywhere}
+header.masthead h1,header.masthead .sitename{overflow-wrap:break-word}
 .paper-name a{color:inherit;text-decoration:none}
 .paper-name a:hover{text-decoration:underline}
